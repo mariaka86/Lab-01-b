@@ -4,24 +4,39 @@
 <title> 1st 201 Lab</title>
 <style>
 h2{
-    color: coral;
+    color: plum;
     text-align: left;
+    background-color: aquamarine;
 }
 ul li {
     text-align: left;
 }
 h1{
-    color: brown;
+    color: palevioletred;
     text-align: center;
+}
+
+body{
+    background-color: rgb(34, 114, 184);
+}
+p {
+    border: 10px;
+    background-size:"60px 120px";
 }
 </style>
 
 </head>
 
 <body>
-<H1> 1st Lab!</H1>
-<p> A paragraph is supposed to be 4 sentences</p>
-    <h2> Breakfast Items</h2>
+    <main>
+<H1> Class 1 Lab !</H1>
+
+<p style="color: rgb(106, 113, 198); background-color: rgb(29, 27, 68);">What is your name? </p>
+<p style = "color:rgb(0, 177, 177); background-color: rgb(116, 146, 201);"> What is your favorite breakfast food</p>
+<p style = "color:rgb(105, 63, 8); background-color: rgb(198, 135, 57);">Where are you?</p>
+<p style = "color: rgb(169, 146, 16); background-color: rgb(114, 72, 8);"> What is the weather like there?</p>
+
+<h2> Breakfast Items</h2>
     <ul>
         <li> Eggs </li>
         <li> Bacon </li>
@@ -31,8 +46,8 @@ h1{
 
     <script>
         let user = prompt( "What is your name");
-        console.log ( `The user's name is ${name}.`);
-        let breakfast = prompt("What is you favorite breakfast food?");
+       console.log ( `The user's name is ${name}.`);
+       let breakfast = prompt("What is you favorite breakfast food?");
         console.log( `Your favorite breakfast is ${breakfast}.`);
         let trip= prompt("Where are you?");
         console.log(`you are in ${location}.`);
@@ -42,6 +57,6 @@ h1{
 
 
      </script>
-
-</body>
+    </main>
+    </body>
 </html>
